@@ -86,7 +86,7 @@ h1{
 
 .h5-white{
     font-size:24px ;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--white-05);
 }
 
@@ -234,6 +234,7 @@ button{
     background-color: var(--white-04) ;
     margin-top: 256px;
     padding-top: 64px;
+    
 
 }
 
@@ -253,7 +254,7 @@ button{
     gap: 1rem;
     margin-top: 256px;
     padding: 1rem;
-
+    
 }
 
 .img-principais-jogos{
@@ -268,9 +269,65 @@ button{
     display: flex;
     gap: 1rem;
     padding: 1rem;
+    
 }
 
 #muito-mais {
     margin-left: 1130px;
-    margin-top: 64px;
+    margin-top: 16px;
+    padding-bottom: 128px;
 }
+
+
+/* Política de Preços */
+.politica-precos h2{
+    margin-left: 135px;
+    margin-top: 128px;
+}
+
+.valores{
+    background-color: var(--terciaria-01);
+    border-radius:64px;
+    margin-top: 64px;
+   width: 80%;
+}
+
+.valores h4{
+    text-align: center;
+    padding-top: 64px;
+}
+
+.precos{
+    margin-top: 64px;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    
+}
+
+.horas{
+    width: 170px;
+    height: 240px;
+    background-color: var(--quartenaria-01);
+    border-radius: 32px;
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+#btn-valores{
+    width: 370px;
+    height: 77.94px;
+    left: 935px;
+    border-radius: 50.38px;
+    background-color: rgba(122, 71, 255, 0);
+    border: 1px solid var(--quartenaria-06);
+    
+    font-size:24px ;
+    font-weight: 400;
+    color: var(--white-05);
+    margin-left: 535px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    
+}
+

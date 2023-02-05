@@ -1,0 +1,143 @@
+/* Geral */
+*{
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+input[type="submit"]{
+    cursor: pointer;
+}
+
+    /* Variáveis de Cores */
+:root{
+
+    --write-01: #fff;
+    --write-02: #EBEBEB;
+    --write-03: #D6D6D6;
+    --write-04: #C2C2C2;
+    --write-05: #ADADAD;
+    --write-06: #999999;
+
+    --black-01: #1A1B1C;
+    --black-02: #2F3032;
+    --black-03: #424547;
+    --black-04: #56595D;
+    --black-05: #56595D;
+    --black-06: #7D8287;
+
+    --quartenaria-01: #22007C;
+    --quartenaria-02: #2D00A3;
+    --quartenaria-03: #3800CC;
+    --quartenaria-04: #4300F5;
+    --quartenaria-05: #5C1FFF;
+    --quartenaria-06: #7A47FF;
+
+    --terciaria-01: #140152;
+
+    --secundaria-01: #04052E;
+
+    --primaria-01: #02010A;
+}
+
+body{
+    background-color: var(--secundaria-01);
+    
+}
+
+body h1{
+    font-size: 121px;
+    font-weight:900;
+    color: var(--write-01);
+}
+
+body h5{
+    font-size:24px ;
+    font-weight: 300;
+    color: var(--write-05);
+}
+
+
+/* Cabeçalho */
+#header{
+    min-height: 90vh;
+    
+    margin-bottom: 2rem;
+    position: relative;
+    
+}
+
+#logo{
+    width: 170px;
+    height: 170px;
+    left: 135px;
+    top: -21px;
+    margin-left: 135px;
+}
+
+#header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 128px;
+}
+
+#navbar{
+    display: flex;
+    gap: 2rem;
+    margin-right: 135px;
+
+}
+
+#navbar a{
+    font-size:24px ;
+    font-weight: 300;
+    color: var(--write-05);
+}
+
+#header-titulo{
+    text-align: center;
+    margin-top: 32px;
+    
+}
+
+#header-titulo h5{
+    margin-top: 32px;
+}
+
+#banner{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 64px;
+}
+
+#banner-logo{
+    
+    width: 473.17px;
+    height: 260px;
+    left: 135px;
+    top: 429px;
+}
+
+button{
+    width: 370px;
+    height: 77.94px;
+    left: 935px;
+    border-radius: 50.38px;
+    background-color: var(--quartenaria-06);
+    border: none;
+    font-size:24px ;
+    font-weight: 400;
+    color: var(--quartenaria-01);
+
+}

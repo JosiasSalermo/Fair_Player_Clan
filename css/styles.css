@@ -2,7 +2,7 @@
 *{
     font-family: 'Merriweather', serif;
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -21,12 +21,12 @@ input[type="submit"]{
     /* Variáveis de Cores */
 :root{
 
-    --write-01: #fff;
-    --write-02: #EBEBEB;
-    --write-03: #D6D6D6;
-    --write-04: #C2C2C2;
-    --write-05: #ADADAD;
-    --write-06: #999999;
+    --white-01: #fff;
+    --white-02: #EBEBEB;
+    --white-03: #D6D6D6;
+    --white-04: #C2C2C2;
+    --white-05: #ADADAD;
+    --white-06: #999999;
 
     --black-01: #1A1B1C;
     --black-02: #2F3032;
@@ -54,17 +54,43 @@ body{
     
 }
 
-body h1{
+h1{
     font-size: 121px;
     font-weight:900;
-    color: var(--write-01);
+    color: var(--white-01);
 }
 
-body h5{
+.h2-white{
+    font-size:81px ;
+    font-weight: 400;
+    color: var(--white-02);   
+}
+
+.h4-white{
+    font-size:36px ;
+    font-weight: 400;
+    color: var(--white-04);
+}
+
+.h5-light-white{
     font-size:24px ;
     font-weight: 300;
-    color: var(--write-05);
+    color: var(--white-05);
 }
+
+.h5-white{
+    font-size:24px ;
+    font-weight: 300;
+    color: var(--white-05);
+}
+
+.h6-white{
+    font-size:16px ;
+    font-weight: 400;
+    color: var(--white-06);
+}
+
+
 
 
 /* Cabeçalho */
@@ -79,7 +105,7 @@ body h5{
 #logo{
     width: 170px;
     height: 170px;
-    left: 135px;
+    /* left: 135px; */
     top: -21px;
     margin-left: 135px;
 }
@@ -89,6 +115,7 @@ body h5{
     justify-content: space-between;
     align-items: center;
     height: 128px;
+    
 }
 
 #navbar{
@@ -100,8 +127,8 @@ body h5{
 
 #navbar a{
     font-size:24px ;
-    font-weight: 300;
-    color: var(--write-05);
+    font-weight: 400;
+    color: var(--white-05);
 }
 
 #header-titulo{
@@ -141,3 +168,54 @@ button{
     color: var(--quartenaria-01);
 
 }
+
+/* Menu Principal */
+#apresentacao h2{
+    margin-top: 256px;
+    margin-left: 135px;
+    left: 135px;
+}
+
+#apresentacao h4{
+    margin-top: 64px;
+    
+    margin-left: 135px;
+}
+
+/* Serviços */
+
+#servicos{
+    
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 256px;
+}
+
+#nome-servicos{
+    margin-top: 16px;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem ;
+}
+#infra {
+    width: 230px;
+    height: 185px;
+   
+}
+
+#catalogo {
+    width: 270px;
+    height:185px ;
+    
+    
+}
+
+#competicao{
+    width: 270px;
+    height: 185px;
+    
+}
+
+
+

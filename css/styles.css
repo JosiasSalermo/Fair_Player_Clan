@@ -66,6 +66,12 @@ h1{
     color: var(--white-02);   
 }
 
+.h2-dark{
+    font-size:81px ;
+    font-weight: 400;
+    color: var(--quartenaria-02); 
+}
+
 .h4-white{
     font-size:36px ;
     font-weight: 400;
@@ -82,6 +88,12 @@ h1{
     font-size:24px ;
     font-weight: 300;
     color: var(--white-05);
+}
+
+.h5-dark{
+    font-size:34px ;
+    font-weight: 400;
+    color: var(--quartenaria-05); 
 }
 
 .h6-white{
@@ -217,5 +229,48 @@ button{
     
 }
 
+/* Nossas Atrações */
+#nossas-atracoes{
+    background-color: var(--white-04) ;
+    margin-top: 256px;
+    padding-top: 64px;
 
+}
 
+#nossas-atracoes h4{
+    
+    margin-left: 135px;
+}
+
+.borda{
+    color: var(--quartenaria-01);
+    height: 10px;
+    margin-left: 140px;
+}
+
+.principais-jogos{
+    display: flex;
+    gap: 1rem;
+    margin-top: 256px;
+    padding: 1rem;
+
+}
+
+.img-principais-jogos{
+    width: 370px;
+    height: 288px;
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#nome-principais-jogos{
+    margin-top: 16px;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#muito-mais {
+    margin-left: 1130px;
+    margin-top: 64px;
+}

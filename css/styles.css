@@ -8,8 +8,12 @@
 
 a{
     text-decoration: none;
+    
 }
 
+button{
+    cursor: pointer;
+}
 img{
     width: 100%;
 }

@@ -106,7 +106,11 @@ h1{
     color: var(--white-06);
 }
 
-
+.h6-dark{
+    font-size:16px ;
+    font-weight: 400;
+    color: var(--quartenaria-06); 
+}
 
 
 /* Cabeçalho */
@@ -333,5 +337,79 @@ button{
     margin-top: 64px;
     margin-bottom: 64px;
     
+}
+
+/* Footer */
+footer{
+    bottom: 0;
+    position: relative;
+}
+
+.esquerda-direita{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer h2{
+    margin-top: 256px;
+    margin-left: 135px;
+
+}
+
+footer h5{
+    margin-left: 135px;
+   
+}
+
+footer h6{
+    margin-top: 16px;
+    margin-left: 135px;
+
+}
+
+.footer-esquerda{
+    margin-top: 128px;
+}
+.footer-direita{
+    margin-top: 128px;
+    margin-right: 135px;
+}
+
+i{
+    color: var(--black-06);
+    margin-right: 5px;
+}
+
+.telefone {
+    margin-top: 32px;
+    margin-left: 135px;
+}
+
+.email {
+    margin-top: 16px;
+    margin-left: 135px;
+}
+.endereco {
+    display: flex;
+    margin-top: 16px;
+    margin-left: 135px;
+    max-width: 234px;
+}
+
+iframe{
+    border-radius: 16px;
+}
+
+.cop{
+    
+    margin-top: 128px;
+    height: 70px;
+    background-color:  var(--primaria-01);
+}
+
+.cop h6{
+    
+    text-align: center;
+    padding-top: 30px;
 }
 

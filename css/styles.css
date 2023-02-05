@@ -76,6 +76,12 @@ h1{
     color: var(--quartenaria-02); 
 }
 
+.h3-white{
+    font-size:54px ;
+    font-weight: 400;
+    color: var(--white-03);   
+}
+
 .h4-white{
     font-size:36px ;
     font-weight: 400;
@@ -413,3 +419,58 @@ iframe{
     padding-top: 30px;
 }
 
+
+
+/* ----------------------- CSGO */
+#main-cs{
+    background-color: var(--white-04);
+    padding-top: 64px;
+    
+}
+
+#main-cs h4{
+    margin-left: 135px;
+}
+
+
+#main-cs img{
+    margin-top: 64px;
+    margin-left: 235px;
+    width: 970px;
+    align-items: center;
+    height: 436px;
+    filter: drop-shadow(0px 10.5514px 10.5514px rgba(0, 0, 0, 0.25));
+}
+
+#main-cs p{
+    padding-top: 64px;
+    margin-left: 135px;
+    max-width: 1100px;
+    padding-bottom: 64px;
+
+}
+
+
+.outros-temas h3{
+    margin-top: 128px;
+    margin-left: 135px;
+}
+
+.img-outros-temas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    text-align: center;
+}
+
+.img-outros-temas h5{
+    margin-top: 16px;
+}
+
+.img-outros-temas img{
+    width: 370px;
+    height: 212px;
+    border-radius: 16px;
+   
+}

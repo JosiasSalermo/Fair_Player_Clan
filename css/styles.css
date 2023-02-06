@@ -384,7 +384,7 @@ footer h5{
 
 footer h6{
     margin-top: 16px;
-    /* margin-left: 135px; */
+    margin-left: 135px;
 
 }
 
@@ -428,7 +428,7 @@ iframe{
     background-color:  var(--primaria-01);
 }
 
-.cop h6{
+#autores{
     
     text-align: center;
     padding-top: 30px;

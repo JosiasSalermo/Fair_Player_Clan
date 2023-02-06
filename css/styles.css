@@ -529,6 +529,7 @@ iframe{
 
 .thay{
     display: flex;
+    
     gap: 2rem;
 }
 
@@ -538,8 +539,8 @@ iframe{
     margin-top: 128px;
 }
 .perfil img{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     margin-top: 32px;
     margin-left: 135px;
@@ -547,7 +548,12 @@ iframe{
 
 .perfil h4{
     margin-top: 16px;
-    margin-left: 135px;
+    margin-left: 140px;
+  
+}
+
+.josias .perfil h4{
+    margin-left: 160px;
 }
 
 .img-portfolio{
@@ -576,9 +582,6 @@ iframe{
     margin-top: 32px;
 }
 
-/* .audio{
-    display: flex;
-} */
 
 /* ----------------------- Animação ------------------------*/
 
@@ -598,6 +601,7 @@ iframe{
 .animacao video{
     margin-left: 400px;
     margin-top: 32px;
+    border-radius: 16px;
     filter: drop-shadow(0px 10.5514px 10.5514px rgba(0, 0, 0, 0.25));
 }
 
@@ -611,7 +615,8 @@ iframe{
 }
 
 .video video{
-    margin-left: 450px;
+    margin-left: 400px;
     margin-top: 32px;
+    border-radius: 16px;
     filter: drop-shadow(0px 10.5514px 10.5514px rgba(0, 0, 0, 0.25));
 }

@@ -51,6 +51,7 @@ input[type="submit"]{
     --secundaria-01: #04052E;
 
     --primaria-01: #02010A;
+    --primaria-02: #09052E;
 }
 
 body{
@@ -62,6 +63,12 @@ h1{
     font-size: 121px;
     font-weight:900;
     color: var(--white-01);
+}
+
+.h1-portfolio{
+    font-size: 121px;
+    font-weight:400;
+    color: rgba(255, 255, 255, 0.1);
 }
 
 .h2-white{
@@ -141,6 +148,9 @@ h1{
     justify-content: space-between;
     align-items: center;
     height: 128px;
+    background-color: var(--primaria-02);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
     
 }
 
@@ -148,6 +158,7 @@ h1{
     display: flex;
     gap: 2rem;
     margin-right: 135px;
+    
 
 }
 
@@ -450,7 +461,7 @@ iframe{
 #popup iframe{
     margin-left: 90px;
     margin-top: 36px ;
-
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -508,4 +519,99 @@ iframe{
     border-radius: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    
+}
+
+/* ----------------------- Criadores ------------------------*/
+.criadores h2{
+    margin-top: 128px;
+    margin-left: 135px;
+}
+
+.thay{
+    display: flex;
+    gap: 2rem;
+}
+
+.josias{
+    display: flex;
+    gap: 2rem;
+    margin-top: 128px;
+}
+.perfil img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-left: 135px;
+}
+
+.perfil h4{
+    margin-top: 16px;
+    margin-left: 135px;
+}
+
+.img-portfolio{
+    width: 670px;
+    border-radius: 16px;
+    padding-top: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* ----------------------- Áudio ------------------------*/
+.projeto-audio{
+    margin-top: 64px;
+}
+
+.projeto-audio h1{
+    margin-left: 135px;
+}
+
+.audio h6{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.audio audio{
+    margin-left: 500px;
+    margin-top: 32px;
+}
+
+/* .audio{
+    display: flex;
+} */
+
+/* ----------------------- Animação ------------------------*/
+
+.projeto-animacao{
+    margin-top: 64px;
+}
+
+.projeto-animacao h1{
+    margin-left: 135px;
+}
+
+.animacao h6 {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.animacao video{
+    margin-left: 400px;
+    margin-top: 32px;
+    filter: drop-shadow(0px 10.5514px 10.5514px rgba(0, 0, 0, 0.25));
+}
+
+/* ----------------------- Vídeo ------------------------*/
+.projeto-video{
+    margin-top: 64px;
+}
+
+.projeto-video h1{
+    margin-left: 135px;
+}
+
+.video video{
+    margin-left: 450px;
+    margin-top: 32px;
+    filter: drop-shadow(0px 10.5514px 10.5514px rgba(0, 0, 0, 0.25));
 }
